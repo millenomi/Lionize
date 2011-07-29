@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Lionize' target in the 'Lionize' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

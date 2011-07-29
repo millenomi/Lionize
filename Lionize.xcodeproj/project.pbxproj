@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15FA7B6913E35E650020C9FA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15FA7B6813E35E650020C9FA /* Cocoa.framework */; };
+		15FA7B7313E35E650020C9FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15FA7B7113E35E650020C9FA /* InfoPlist.strings */; };
+		15FA7B7C13E35E850020C9FA /* ILTextMateLionSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FA7B7B13E35E850020C9FA /* ILTextMateLionSupport.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15FA7B6513E35E650020C9FA /* Lionize.tmplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lionize.tmplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		15FA7B6813E35E650020C9FA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		15FA7B6B13E35E650020C9FA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		15FA7B6C13E35E650020C9FA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		15FA7B6D13E35E650020C9FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		15FA7B7013E35E650020C9FA /* Lionize-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lionize-Info.plist"; sourceTree = "<group>"; };
+		15FA7B7213E35E650020C9FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15FA7B7413E35E650020C9FA /* Lionize-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lionize-Prefix.pch"; sourceTree = "<group>"; };
+		15FA7B7A13E35E850020C9FA /* ILTextMateLionSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILTextMateLionSupport.h; sourceTree = "<group>"; };
+		15FA7B7B13E35E850020C9FA /* ILTextMateLionSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILTextMateLionSupport.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15FA7B6213E35E650020C9FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FA7B6913E35E650020C9FA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15FA7B5A13E35E650020C9FA = {
+			isa = PBXGroup;
+			children = (
+				15FA7B6E13E35E650020C9FA /* Lionize */,
+				15FA7B6713E35E650020C9FA /* Frameworks */,
+				15FA7B6613E35E650020C9FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15FA7B6613E35E650020C9FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15FA7B6513E35E650020C9FA /* Lionize.tmplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15FA7B6713E35E650020C9FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15FA7B6813E35E650020C9FA /* Cocoa.framework */,
+				15FA7B6A13E35E650020C9FA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15FA7B6A13E35E650020C9FA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15FA7B6B13E35E650020C9FA /* AppKit.framework */,
+				15FA7B6C13E35E650020C9FA /* CoreData.framework */,
+				15FA7B6D13E35E650020C9FA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		15FA7B6E13E35E650020C9FA /* Lionize */ = {
+			isa = PBXGroup;
+			children = (
+				15FA7B6F13E35E650020C9FA /* Supporting Files */,
+				15FA7B7A13E35E850020C9FA /* ILTextMateLionSupport.h */,
+				15FA7B7B13E35E850020C9FA /* ILTextMateLionSupport.m */,
+			);
+			path = Lionize;
+			sourceTree = "<group>";
+		};
+		15FA7B6F13E35E650020C9FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15FA7B7013E35E650020C9FA /* Lionize-Info.plist */,
+				15FA7B7113E35E650020C9FA /* InfoPlist.strings */,
+				15FA7B7413E35E650020C9FA /* Lionize-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15FA7B6413E35E650020C9FA /* Lionize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15FA7B7713E35E650020C9FA /* Build configuration list for PBXNativeTarget "Lionize" */;
+			buildPhases = (
+				15FA7B6113E35E650020C9FA /* Sources */,
+				15FA7B6213E35E650020C9FA /* Frameworks */,
+				15FA7B6313E35E650020C9FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lionize;
+			productName = Lionize;
+			productReference = 15FA7B6513E35E650020C9FA /* Lionize.tmplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15FA7B5C13E35E650020C9FA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 15FA7B5F13E35E650020C9FA /* Build configuration list for PBXProject "Lionize" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 15FA7B5A13E35E650020C9FA;
+			productRefGroup = 15FA7B6613E35E650020C9FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15FA7B6413E35E650020C9FA /* Lionize */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15FA7B6313E35E650020C9FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FA7B7313E35E650020C9FA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15FA7B6113E35E650020C9FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FA7B7C13E35E850020C9FA /* ILTextMateLionSupport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15FA7B7113E35E650020C9FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15FA7B7213E35E650020C9FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15FA7B7513E35E650020C9FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		15FA7B7613E35E650020C9FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		15FA7B7813E35E650020C9FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lionize/Lionize-Prefix.pch";
+				INFOPLIST_FILE = "Lionize/Lionize-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = tmplugin;
+			};
+			name = Debug;
+		};
+		15FA7B7913E35E650020C9FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lionize/Lionize-Prefix.pch";
+				INFOPLIST_FILE = "Lionize/Lionize-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = tmplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15FA7B5F13E35E650020C9FA /* Build configuration list for PBXProject "Lionize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15FA7B7513E35E650020C9FA /* Debug */,
+				15FA7B7613E35E650020C9FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15FA7B7713E35E650020C9FA /* Build configuration list for PBXNativeTarget "Lionize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15FA7B7813E35E650020C9FA /* Debug */,
+				15FA7B7913E35E650020C9FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15FA7B5C13E35E650020C9FA /* Project object */;
+}
